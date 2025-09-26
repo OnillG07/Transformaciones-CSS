@@ -1,0 +1,148 @@
+body {
+    background-color: rgba(155,155,100,0.9)
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.circles {
+    border-radius: 50%;
+    border: 3px solid blue;
+}
+
+.circle1 {
+    border: 3px solid green;
+    background-color: aqua;
+    transition: transform 0.7s ease-in-out,
+    background-color 0.7s ease-in-out,
+    border-color 0.7s ease;
+}
+
+.circle1:hover {
+    transform: translateX(20px);
+    background-color: rgba(0,50,200,0.8);
+    border-color: lightblue;
+}
+
+.circle2 {
+    background-color: rgba(190,0,0,0.9);
+}
+
+.circle2:hover {
+    background-image: linear-gradient(30deg, rgba(0,159,159,0.5), darkblue);
+}
+
+.circle3 {
+    background-color: burlywood;
+    border: 3px solid brown;
+    box-shadow: 0 0px 30px rgba(200,0,195,0.9);
+    transition: transform 1s ease-in-out;
+}
+
+.circle3:hover {
+    transform: translateY(-30px);
+}
+
+.circle4 {
+    background-color: white;
+    box-shadow: 0px 0px 30px rgba(0,155,100,0.9);
+    border: 6px solid gray;
+    transition: transform 2s ease-in-out,
+    box-shadow 2s ease;
+}
+
+.circle4:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 0px 40px rgba(255,0,255,0.3);
+    background-color: rgba(0,0,223,0.7);
+    border-color: rgba(100,0,155,0.6);
+    box-shadow: 0px 0px 100px rgba(155,0,255,0.9);
+}
+
+.circle5 {
+    background-color: slateblue;
+    transition: transform 1s ease-in-out,
+    border-color 1s ease,
+    background-color 1s ease-in-out;
+}
+
+.circle5:hover {
+    transform: translateX(-20px);
+    border: 3px solid white;
+    border-color: 4px rgba(155,0,155,0.7);
+    background-color: darkred;
+}
+
+.circle6 {
+    background-color: lightsalmon;
+    transition: transform 1s ease-in-out,
+    border-color 2s ease,
+    background-color 2s ease;
+}
+
+.circle6:hover {
+    transform: translateY(30px);
+    border: 10px solid blue;
+    border-color: rgba(190,190,0,0.9);
+    background-color: brown;
+}
+
+.circle7 {
+    background-color: darkcyan;
+    border: 3px solid red;
+    transition: transform 1s ease,
+    border-color 1s ease,
+    background-color 1s ease,
+    box-shadow 1s ease;
+}
+
+.circle7:hover {
+    background-color: darkorange;
+    border-color: rgba(200,0,0,0.9);
+    box-shadow: 30px 9px rgba(255,165,0,0.6);
+    transform: scaleX(1.5)
+}
+
+.circle8 {
+    background-color: yellow;
+    box-shadow: 0px 0px 60px rgba(0,0,255,0.3);
+    transition: transform 0.5s ease-in-out,
+    border-color 1s ease,
+    background-color 1s ease;
+}
+
+.circle8:hover {
+    background-color: goldenrod;
+    border-color: rgba(255,155,0,0.9) ;
+    box-shadow: 0px 0px 100px rgba(255,0,0,0.9);
+    transform: scaleY(1.5)
+}
+
+.circle9 {
+    background-color: hotpink;
+    transition: border-color 1s ease;
+}
+
+.circle9:hover {
+    background-image: linear-gradient(30deg, rgba(200,10,100,0.9), pink);
+    border-color: rgba(250,30,110,0.5);
+}
+
+.circle10 {
+    transition: transform 8s ease-in-out,
+    border-color 5s ease-in-out,
+    background-color 5s ease-in-out;
+}
+
+.circle10:hover {
+    background-color: white;
+    border-color: rgba(0,200,255);
+    transform: scale(3.5)
+}
